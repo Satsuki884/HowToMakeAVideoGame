@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown("w"))
+        if (Input.GetKeyDown("space"))
         {
             doJump = true;
 
